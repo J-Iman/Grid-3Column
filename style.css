@@ -1,7 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,9 +11,80 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-size: 15px;
     background: #edf2f8;
 }
+
+.container {
+    margin: 6% 20%;
+    max-width: 1440px;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card {
+    color: white;
+}
+
+.general-content {
+    margin: 10%;
+}
+
+.text--content {
+    margin-top: 10%;
+}
+.text--content > h1 {
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.text--content > p {
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 31%;
+    line-height: 1.7;
+}
+
+.buttons {
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.card--bright--orange {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn--sedans:hover{
+    background: white;
+    color: hsl(31, 77%, 52%);
+    transition: 0.3s;
+}
+
+.card--dark--cyan {
+    background: hsl(184, 100%, 22%);
+}
+.btn--suvs:hover{
+    background: white;
+    color: hsl(184, 100%, 22%);
+    transition: 0.3s;
+}
+
+.card--moredark--cyan {
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn--luxury:hover{
+    background: white;
+    color: hsl(179, 100%, 13%);
+    transition: 0.3s;
+}
+
+
 
